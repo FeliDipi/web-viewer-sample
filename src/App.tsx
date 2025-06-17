@@ -20,16 +20,7 @@ import { AppStreamer } from "@nvidia/omniverse-webrtc-streaming-library";
 import { Component } from "react";
 import "./App.css";
 import Window from "./Window";
-import StreamOnlyWindow from "./StreamOnlyWindow";
-import {
-  Application,
-  AppOnlyForm,
-  ServerURLsForm,
-  ApplicationsForm,
-  VersionsForm,
-  ProfilesForm,
-} from "./Forms";
-import LogoImage from "./assets/nvidia_logo.png";
+import { Application } from "./Forms";
 import StreamConfig from "../stream.config.json";
 import {
   getStreamingSessionInfo,
